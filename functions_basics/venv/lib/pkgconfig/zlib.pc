@@ -1,0 +1,13 @@
+prefix=/Users/akshaygrade/Desktop/GENAI/GENAILERARNING/venv
+exec_prefix=/Users/akshaygrade/Desktop/GENAI/GENAILERARNING/venv
+libdir=/Users/akshaygrade/Desktop/GENAI/GENAILERARNING/venv/lib
+sharedlibdir=/Users/akshaygrade/Desktop/GENAI/GENAILERARNING/venv/lib
+includedir=/Users/akshaygrade/Desktop/GENAI/GENAILERARNING/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
